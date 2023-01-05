@@ -2,6 +2,10 @@ let choices = ["rock", "paper", "scissors"];
 
 let userChoice = prompt("Choose paper, scissors or rock: ");
 
-let computerChoice = Math.floor(Math.random() * choices.length);
+function compInput(choices){
+    return choices[Math.floor(Math.random()*choices.length)];
+}
+console.log(compInput(choices));
+
 
 
