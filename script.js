@@ -8,4 +8,7 @@ function compInput(choices){
 console.log(compInput(choices));
 
 
+let wins = 0;
+let loses = 0;
+let ties = 0;
 
